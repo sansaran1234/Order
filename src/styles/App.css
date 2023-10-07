@@ -1,0 +1,200 @@
+@font-face {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  src: url("./font/Kanit-Regular.ttf") format("TrueType");
+}
+body{
+  font-family: Kanit !important;
+}
+.page1,.page2{
+  min-height: 100vh;
+  background: #222;
+  color: #FFF;
+  padding: 2rem 0;
+}
+.zone-search{
+  width: 100%;
+  border: 1px solid #FFF;
+  border-radius: 8px;
+}
+.zone-search, .zone-treeList, .zone-formDetail, .zone-detailDelivery{
+  width: 100%;
+  border: 1px solid #FFF;
+  border-radius: 8px;
+  min-height: 100%;
+}
+.zone-dateTreeList, .zone-enterFormDetail, .zone-showDetail{
+  padding: 1rem 2rem;
+}
+.zone-result-search{
+  width: 100%;
+  border: 1px solid #FFF;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+.header-name{
+  padding: 1rem;
+  border-bottom: 1px solid #FFF;
+}
+.zone-form,.zone-table{
+  padding: 1rem 2rem;
+}
+.zone-btnAction{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.zone-btnAction .btn{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.active,.Active{
+  border-radius: 20px !important;
+  width: 120px;
+  background-color: #198754 !important;
+  border: none !important;
+}
+.inactive,.Inactive{
+  border-radius: 20px !important;
+  width: 120px;
+  background-color: #ffc107 !important;
+  color: #000 !important;
+  border: none !important;
+}
+.stopwork,.Stop.Work{
+  border-radius: 20px !important;
+  width: 120px;
+  background-color: #dc3545 !important;
+  border: none !important;
+}
+.disabledStatus{
+  pointer-events: none !important;
+  opacity: .5 !important;
+}
+.btnStatus{
+  cursor: auto !important;
+}
+.btnStatusDetail{
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+}
+.zone-btnForm{
+text-align: right;
+}
+.zone-btnForm img{
+  width: 22px;
+}
+.btnSubmit{
+  margin-left: .5rem;
+}
+select:focus,input:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #FFF !important;
+}
+.boxOrderNumber{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.boxOrderNumber button{
+  width: 40px;
+  padding: 5px;
+  margin-right: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxOrderNumber img{
+  width: 15px;
+  margin-left: .5rem;
+  margin-bottom: .3rem;
+  filter: invert(1);
+}
+.rdt_TableRow:hover{
+  background: #001b22;
+  /* border: none !important; */
+  cursor: pointer;
+}
+.box-btnEdit{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btnSaveEdit,.btnClearEdit{
+  width: 40px;
+  height: 40px;
+  padding: 7px !important;
+}
+.btnSaveEdit img,.btnClearEdit img{
+  width: 100%;
+}
+.btnClearEdit{
+  margin-right: .5rem;
+}
+.inputBoxOrder{
+  background: #999 !important;
+  border: #999 !important;
+}
+.imgEmployees {
+  padding: .5rem 0;
+}
+.imgEmployees .bgEmployee{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: top center !important;
+}
+.modal-header{
+  border-bottom: none !important;
+}
+.modal-footer{
+  border-top: none !important;
+}
+.modal-content{
+  background: linear-gradient(180deg,#001b22,#000);
+  color: #FFF !important;
+  border: 1px solid #FFF !important;
+}
+#treeList {
+  height: 500px;
+}
+.activeNumber{
+  color: #ffe600 !important;
+}
+.zone-detail-employee{
+  background: #001b22;
+  min-height: 100%;
+  padding: 1rem;
+}
+.imgEmployeeDetail{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  background-size: cover !important;
+  margin: auto;
+  background-repeat: no-repeat !important;
+  background-position: top center !important;
+}
+.form-select:disabled{
+  background: #999 !important;
+  border: #999 !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
